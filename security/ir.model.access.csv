@@ -1,0 +1,2 @@
+id,name,model_id:id,group_id:id,perm_read,perm_write,perm_create,perm_unlink
+access_proyecto_javier_empresas_contratadoras_administrador,empresas_contratadoras.administrador,model_proyecto_javier_empresas_contratadoras,proyecto_javier.grupo_administrador,1,1,1,1

@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<odoo>
+  <data>
+    <!-- GRUPO ADMINISTRADOR DE EMPRESAS -->
+    <record id="grupo_administrador" model="res.groups">
+      <field name="name">Proyecto_Javier/Administrador empresas</field>
+      <field name="comment">Perfil administrador de las empresas</field>
+    </record>
+
+    <record id="grupo_jefe_proyectos" model="res.groups">
+      <field name="name">Proyecto_Javier/Jefe de proyectos</field>
+      <field name="comment">Perfil de jefe de proyectos</field>
+    </record>
+
+  </data>
+</odoo>
