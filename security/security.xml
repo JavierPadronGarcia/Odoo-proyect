@@ -12,6 +12,5 @@
       <field name="name">Proyecto_Javier/Jefe de proyectos</field>
       <field name="comment">Perfil de jefe de proyectos</field>
     </record>
-
   </data>
 </odoo>

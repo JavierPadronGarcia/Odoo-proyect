@@ -3,7 +3,7 @@
 from odoo import models, fields, api
 
 
-class ProyectoJavierEmpresasContratadoras(models.Model):
+class ProyectoJavierEmpresasContratadoras(models.Model):    
     _name = 'proyecto_javier.empresas_contratadoras'
     _description = 'proyecto_javier.empresas_contratadoras'
 
@@ -15,6 +15,7 @@ class ProyectoJavierEmpresasContratadoras(models.Model):
     address2 = fields.Char(string="Direccion 2")
     employees_number = fields.Integer(string='Número de empleados')
     business_type = fields.Char(string="Tipo de empresa", compute='_compute_business_type')
+    proyect_ids = fields.One2many('project.project', 'empresa_contratadora_id', string="Proyectos") 
 
     @api.depends('employees_number')
     def _compute_business_type(self):
@@ -28,3 +29,7 @@ class ProyectoJavierEmpresasContratadoras(models.Model):
             else:
                 record.business_type = False
 
+class ProjectProject(models.Model):
+    _inherit = 'project.project'
+
+    empresa_contratadora_id = fields.Many2one('proyecto_javier.empresas_contratadoras', string="Empresa Contratadora")
