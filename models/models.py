@@ -33,3 +33,7 @@ class ProjectProject(models.Model):
     _inherit = 'project.project'
 
     empresa_contratadora_id = fields.Many2one('proyecto_javier.empresas_contratadoras', string="Empresa Contratadora")
+    tasks_ids = fields.One2many("project.task", "project_id", string="Tareas")
+
+class ProjecTask(models.Model):
+    _inherit = 'project.task'
