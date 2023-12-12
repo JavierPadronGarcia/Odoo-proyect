@@ -29,7 +29,8 @@
         'views/views.xml',
         'views/templates.xml',
         'security/security.xml',
-        'security/ir.model.access.csv'
+        'security/ir.model.access.csv',
+        'data/task_stage_data.xml'
     ],
     # only loaded in demonstration mode
     'demo': [
@@ -37,4 +38,9 @@
     ],
 
     'application': 'True',
+    'assets': {
+        'web.assets_common': [
+            'proyecto_javier/static/src/scss/style1.scss'
+        ]
+    }
 }

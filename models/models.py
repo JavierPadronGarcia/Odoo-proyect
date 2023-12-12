@@ -37,3 +37,5 @@ class ProjectProject(models.Model):
 
 class ProjecTask(models.Model):
     _inherit = 'project.task'
+
+    stage_id = fields.Many2one('project.task.type', string='Etapa')
