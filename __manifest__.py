@@ -30,7 +30,9 @@
         'views/templates.xml',
         'security/security.xml',
         'security/ir.model.access.csv',
-        'data/task_stage_data.xml'
+        'data/task_stage_data.xml',
+        'reports/proyecto_javier_report.xml',
+        'reports/proyecto_javier_report_view.xml'
     ],
     # only loaded in demonstration mode
     'demo': [

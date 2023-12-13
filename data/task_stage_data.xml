@@ -2,6 +2,7 @@
 <odoo>
   <data noupdate="1">
 
+    <!-- Tipos de Tarea -->
     <record id="task_stage_backlog" model="project.task.type">
       <field name="name">Backlog</field>
     </record>
@@ -21,6 +22,5 @@
     <record id="task_stage_done" model="project.task.type">
       <field name="name">Done</field>
     </record>
-
   </data>
 </odoo>
