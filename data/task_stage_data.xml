@@ -3,23 +3,23 @@
   <data noupdate="1">
 
     <!-- Tipos de Tarea -->
-    <record id="task_stage_backlog" model="project.task.type">
+    <record id="project_tags_backlog" model="project.tags">
       <field name="name">Backlog</field>
     </record>
 
-    <record id="task_stage_ready" model="project.task.type">
+    <record id="project_tags_ready" model="project.tags">
       <field name="name">Ready</field>
     </record>
 
-    <record id="task_stage_inprogress" model="project.task.type">
+    <record id="project_tags_inprogress" model="project.tags">
       <field name="name">In progress</field>
     </record>
 
-    <record id="task_stage_inreview" model="project.task.type">
+    <record id="project_tags_inreview" model="project.tags">
       <field name="name">In Review</field>
     </record>
 
-    <record id="task_stage_done" model="project.task.type">
+    <record id="project_tags_done" model="project.tags">
       <field name="name">Done</field>
     </record>
   </data>
