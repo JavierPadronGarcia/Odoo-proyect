@@ -8,3 +8,5 @@ access_proyecto_javier_proyectos_jefe_proyectos,proyecto.jefe_proyectos,model_pr
 access_proyecto_javier_proyectos_analista,proyecto.analista,model_project_project,proyecto_javier.grupo_analistas,1,0,0,0
 
 access_proyecto_javier_tareas_programador,tarea.programador,model_project_task,proyecto_javier.grupo_programadores,1,1,0,0
+access_proyecto_javier_tareas_jefe_proyectos,tarea.jefe_proyectos,model_project_task,proyecto_javier.grupo_jefe_proyectos,1,1,1,1
+access_proyecto_javier_tareas_analista,tarea.analista,model_project_task,proyecto_javier.grupo_analistas,1,1,1,1
