@@ -32,7 +32,8 @@
         'security/ir.model.access.csv',
         'data/task_stage_data.xml',
         'reports/proyecto_javier_report.xml',
-        'reports/proyecto_javier_report_view.xml'
+        'reports/proyecto_javier_report_view.xml',
+        'security/proyecto_javier_reglas_registro.xml'
     ],
     # only loaded in demonstration mode
     'demo': [
